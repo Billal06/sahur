@@ -10,7 +10,7 @@ while True:
 	if waktu[3] == sahur:
 		print ("\n[*] Saat Nya Sahur")
 		print ("[*] Memutar Alarm")
-		os.system("mpv /sdcard/Music/sahur.mp3 > .x && rm -rf .x") # Memutar Ringtone
+		os.system("mpv /sdcard/Music/sahur.mp3 > .x && rm -rf .x") # Memutar Ringtone (ganti sesuai path ringtone anda)
 		break
 	else:
 		continue
